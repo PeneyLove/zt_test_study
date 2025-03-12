@@ -30,8 +30,10 @@ https://auth.applitools.com/users/general-register
 applitools 提供了 eyes-selenium库，里面包含了视觉相关的API，需要安装。
 
 pip 安装
+
     pip install  eyes-selenium
 以下是基于eyes-selenium编写的自动化脚本。
+
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from applitools.selenium import Eyes, Target, Configuration
